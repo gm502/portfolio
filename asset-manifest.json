@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6453aad6.css",
+    "main.js": "/portfolio/static/js/main.e35c6aa7.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/GM_CV.pdf": "/portfolio/static/media/GM_CV.a30d71fd87ab1a7bdd37.pdf",
+    "static/media/faceBlurApp.png": "/portfolio/static/media/faceBlurApp.cb0c35591f38ef3a0687.png",
+    "static/media/photo.png": "/portfolio/static/media/photo.cda5c561e89db169ca07.png",
+    "static/media/wordle.png": "/portfolio/static/media/wordle.6b7ceda540731099019d.png",
+    "static/media/Summits.png": "/portfolio/static/media/Summits.ccd29ef6a9acca545045.png",
+    "static/media/avatar.svg": "/portfolio/static/media/avatar.ac41ca22fedd2d65ecbe2ebb7d25faf3.svg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.56d6bb14eeb1d4dc238f.svg",
+    "index.html": "/portfolio/index.html",
+    "main.6453aad6.css.map": "/portfolio/static/css/main.6453aad6.css.map",
+    "main.e35c6aa7.js.map": "/portfolio/static/js/main.e35c6aa7.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6453aad6.css",
+    "static/js/main.e35c6aa7.js"
+  ]
+}
