@@ -20,7 +20,7 @@ function Projects() {
           My Recent <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects that I have worked on recently:
+          A few projects that I have worked on recently:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={Summits}
               isBlog={false}
               title="37Summits"
-              description="Built with react as a concept fully responsive app for the ''37 Summits Challenge'', a challenge to reach the summit of all of the 37 volcanoes located in Guatemala. With functionality in both English and Spanish, it allows users to keep track of their progress, sort by relevant parameters, search, and obtain relevant information."
+              description="Built with react as a fully responsive concept app for the ''37 Summits Challenge'', a challenge to reach the summit of all of the 37 volcanoes located in Guatemala. With functionality in both English and Spanish, it allows users to keep track of their progress, sort by relevant parameters, search, and obtain relevant information."
               ghLink="https://github.com/gabomishaan/37Summits"
               demoLink="https://gabomishaan.github.io/37Summits/"
             />
@@ -50,7 +50,7 @@ function Projects() {
               imgPath={wordle}
               isBlog={false}
               title="Wrodle"
-              description="Sharpen your Wordle skills with this fully responsive Wordle App created with javascript, HTML, and CSS. The project includes an on-screen interactive keyboard to accept user input, animations, and notifications. {'\n'}"
+              description="Sharpen your Wordle skills with this fully responsive Wordle App created with javascript, HTML, and CSS. The project includes an on-screen interactive keyboard to accept user input, animations, and notifications."
               ghLink="https://github.com/gabomishaan/Wordle"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
