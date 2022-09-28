@@ -37,7 +37,7 @@ function Home2() {
 
               <br />
               <br /> 
-              I discovered that the analytical, logical, and scientific methods of thought translate well to the realm of computer programming.
+              I discovered that the analytical, logical, and scientific methods of thought translate well to computer programming.
 
               <br />
               <br />

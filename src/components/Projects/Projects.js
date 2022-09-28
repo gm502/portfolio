@@ -49,8 +49,8 @@ function Projects() {
             <ProjectCard
               imgPath={wordle}
               isBlog={false}
-              title="Wrodle"
-              description="Sharpen your Wordle skills with this fully responsive Wordle App created with javascript, HTML, and CSS. The project includes an on-screen interactive keyboard to accept user input, animations, and notifications."
+              title="Wordle"
+              description="Sharpen your Wordle skills with this fully responsive Wordle App created with JavaScript, HTML, and CSS. The project includes an on-screen interactive keyboard to accept user input, animations, and notifications."
               ghLink="https://github.com/gabomishaan/Wordle"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />

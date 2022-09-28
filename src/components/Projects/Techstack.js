@@ -10,7 +10,7 @@ import {
   DiNpm,
   DiPostgresql,
   DiBootstrap,
-  DiSublime,
+  DiTerminal,
 
 } from "react-icons/di";
 import {
@@ -59,7 +59,7 @@ function Techstack() {
         <SiPostman />
       </Col>      
       <Col xs={4} md={2} className="tech-icons">
-        <DiSublime />
+        <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
