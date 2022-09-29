@@ -25,7 +25,7 @@ function Home2() {
           <Col md={8} className="home-about-description">
 
             <p className="home-about-body">
-              I am Gabo, a Civil Engineer turned <b className="purple"> software developer. </b> 
+              I am Gabo, a civil engineer turned <b className="purple"> software developer. </b> 
               <br />
               <br />I have always been passionate about building and fixing things. 
               As a Geo-Structural Engineer, I am responsible for{" "}  
