@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn} from "react-icons/fa";
+import { MdEmail} from "react-icons/md";
 
 function Home2() {
   return (
@@ -82,6 +81,17 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="/#"
+                  onClick={() => window.location = 'mailto:mishaan.gabo@gmail.com'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <MdEmail />
+                </a>
+              </li>              
             </ul>
           </Col>
         </Row>

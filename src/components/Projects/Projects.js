@@ -5,10 +5,9 @@ import Particle from "../Particle";
 import wordle from "../../Assets/Projects/wordle.png";
 import faceBlurApp from "../../Assets/Projects/faceBlurApp.png";
 import Summits from "../../Assets/Projects/Summits.png";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn} from "react-icons/fa";
+import { MdEmail} from "react-icons/md";
 import Techstack from "./Techstack";
 
 function Projects() {
@@ -50,7 +49,7 @@ function Projects() {
               imgPath={wordle}
               isBlog={false}
               title="Wordle"
-              description="Sharpen your Wordle skills with this fully responsive Wordle App created with JavaScript, HTML, and CSS. The project includes an on-screen interactive keyboard to accept user input, animations, and notifications."
+              description="Produced a fully responsive app with JavaScript, HTML, and CSS that allows users to play Wordle without a daily limit, choosing a random word from a comprehensive list and accepting user input through an on-screen keyboard."
               ghLink="https://github.com/gabomishaan/Wordle"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
@@ -94,6 +93,17 @@ function Projects() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="/#"
+                  onClick={() => window.location = 'mailto:mishaan.gabo@gmail.com'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <MdEmail />
+                </a>
+              </li>          
             </ul>
           </Col>
         </Row>
