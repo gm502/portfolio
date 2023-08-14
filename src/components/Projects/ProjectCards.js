@@ -21,11 +21,11 @@ function ProjectCards(props) {
           href={props.ghLink} 
           target="_blank"
         >
-          <BsGithub /> &nbsp;
-          {"GitHub"}
+          {/*<BsGithub /> &nbsp;*/}
+          {"Link"}
         </Button>
         
-        <Button
+        {/*<Button
           variant="primary"
           href={props.demoLink}
           target="_blank"
@@ -33,7 +33,7 @@ function ProjectCards(props) {
         >
             <CgWebsite /> &nbsp;
             {"Demo"}
-          </Button>
+          </Button>*/}
       </div>
       </Card.Body>
     </Card>

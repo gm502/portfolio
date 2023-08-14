@@ -38,7 +38,7 @@ function Projects() {
               imgPath={faceBlurApp}
               isBlog={false}
               title="Face Blur App"
-              description="Fully reponsive app built with react as a frontend, an image recognition API using Clarifai, Node.js and Express.js as a backend, and  PostgreSQL as a database. It has a sign in, register, and sign out functionalities. User enters a URL to an image, the app will detect human faces in the image and blur them out. username: ''test@gmail.com'' password: ''test''"
+              description="Fully reponsive app built with react as a frontend, an image recognition API using Clarifai, Node.js and Express.js as a backend, and  PostgreSQL as a database. It has a sign in, register, and sign out functionalities. User enters a URL to an image, the app will detect human faces in the image and blur them out. The username information is stored in a secure database with password encryption."
               ghLink="https://github.com/gabomishaan/face-blur-app-v2"
               demoLink="https://gabomishaan.github.io/face-blur-app-v2/"
             />
@@ -48,9 +48,9 @@ function Projects() {
             <ProjectCard
               imgPath={wordle}
               isBlog={false}
-              title="Wordle"
-              description="Produced a fully responsive app with JavaScript, HTML, and CSS that allows users to play Wordle without a daily limit, choosing a random word from a comprehensive list and accepting user input through an on-screen keyboard."
-              ghLink="https://github.com/gabomishaan/Wordle"
+              title="Employee Data Preparation and Visualization"
+              description="Utilized SQL to extract and analyze employee and sales data from a public company dataset. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
+              ghLink="https://public.tableau.com/app/profile/gabriel.mishaan/viz/Sales3YearAnalysis_16895334473060/SalesPerformance"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
           </Col>

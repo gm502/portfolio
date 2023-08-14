@@ -24,28 +24,25 @@ function Home2() {
           <Col md={8} className="home-about-description">
 
             <p className="home-about-body">
-              I am Gabo, a civil engineer turned <b className="purple"> software developer. </b> 
-              <br />
-              <br />I have always been passionate about building and fixing things. 
-              As a Geo-Structural Engineer, I am responsible for{" "}  
+
+              <br />I have always been passionate about building and fixing things. I constantly seek opportunities for growth and improvement. 
+              I optimize processes and translate data into valuable and comprehensible insights. My goal is to {" "}  
               <i>
-                <b className="purple">designing, optimizing, and overseeing the implementation</b>
+                <b className="purple">improve results, make the right decisions, and save costs.</b>
               </i>
 
-               {" "}of foundation systems of mega-structures.
+               {" "}
+
+            
 
               <br />
-              <br /> 
-              I discovered that the analytical, logical, and scientific methods of thought translate well to computer programming.
-
               <br />
-              <br />
-              My fields of interest are building new &nbsp;
+              I currently work as an analyst leading app releases and deployments, I use  &nbsp; 
               <i>
-                <b className="purple">web technologies and products </b> and
+                <b className="purple">data-driven strategies and technology to optimize processes and drive improvements. </b>
                 {" "}
                 <b className="purple">
-                   robust and responsive applications.
+                
                 </b>
               </i>
               
@@ -73,7 +70,7 @@ function Home2() {
               </li>  
               <li className="social-icons">
                 <a
-                  href="https://linkedin.com/in/gabo-mishaan"
+                  href="www.linkedin.com/in/gabrielmishaan"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +81,7 @@ function Home2() {
               <li className="social-icons">
                 <a
                   href="/#"
-                  onClick={() => window.location = 'mailto:mishaan.gabo@gmail.com'}
+                  onClick={() => window.location = 'mailto:gabomishaan7@gmail.com'}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

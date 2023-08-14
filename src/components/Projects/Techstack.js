@@ -1,16 +1,24 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import {
+  DiDatabase,
+  DiMysql,
+  DiGoogleAnalytics,
+  DiPython,
+  DiGithubBadge,
+  DiScrum,
+  DiWindows,
   DiJavascript1,
   DiReact,
   DiHtml5,
   DiCss3,  
   DiNodejs,
-  DiGithubBadge,
   DiNpm,
   DiPostgresql,
   DiBootstrap,
   DiTerminal,
+  DiGoogleDrive,
+  DiGitBranch
 
 } from "react-icons/di";
 import {
@@ -23,46 +31,46 @@ function Techstack() {
     <Container>
     <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "20px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiGoogleAnalytics />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <DiDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiPython />
       </Col> 
     </Row>  
 
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }} >  
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiScrum />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithubBadge />
+        <DiGitBranch />
       </Col>      
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNpm />
+        <DiGoogleDrive />
       </Col>
     </Row>
 
     <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>  
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <DiReact />
       </Col>      
       <Col xs={4} md={2} className="tech-icons">
-        <DiTerminal />
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <DiCss3 /> 
       </Col>      
     </Row>
    </Container> 
