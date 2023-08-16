@@ -9,6 +9,7 @@ function Type() {
           "Data-driven",
           "Problem Solver",
           "Engineer",
+          "Adaptable"
                             ],
         autoStart: true,
         loop: true,

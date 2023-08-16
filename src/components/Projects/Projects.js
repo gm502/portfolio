@@ -26,9 +26,9 @@ function Projects() {
             <ProjectCard
               imgPath={Summits}
               isBlog={false}
-              title="37Summits"
-              description="Built with react as a fully responsive concept app for the ''37 Summits Challenge'', a challenge to reach the summit of all of the 37 volcanoes located in Guatemala. With functionality in both English and Spanish, it allows users to keep track of their progress, sort by relevant parameters, search, and obtain relevant information."
-              ghLink="https://github.com/gabomishaan/37Summits"
+              title="Data Preparation and Visualization - COVID19"
+              description="Used SQL Server to explore and extract insights from publicly available COVID19 Data. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
+              ghLink="https://github.com/gabomishaan/CovidData/blob/main/CovidData.sql"
               demoLink="https://gabomishaan.github.io/37Summits/"
             />
           </Col>
@@ -48,8 +48,8 @@ function Projects() {
             <ProjectCard
               imgPath={wordle}
               isBlog={false}
-              title="Employee Data Preparation and Visualization"
-              description="Utilized SQL to extract and analyze employee and sales data from a public company dataset. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
+              title="Data Preparation and Visualization - Employee Data"
+              description="Utilized SQL Server to explore and analyze employee and sales data from a public company dataset. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
               ghLink="https://public.tableau.com/app/profile/gabriel.mishaan/viz/Sales3YearAnalysis_16895334473060/SalesPerformance"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
