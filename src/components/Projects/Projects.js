@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import wordle from "../../Assets/Projects/wordle.png";
+import UN from "../../Assets/Projects/UN.png";
 import faceBlurApp from "../../Assets/Projects/faceBlurApp.png";
 import Summits from "../../Assets/Projects/Summits.png";
 import {AiFillGithub} from "react-icons/ai";
@@ -51,6 +52,17 @@ function Projects() {
               title="Data Preparation and Visualization - Employee Data"
               description="Utilized SQL Server to explore and analyze employee and sales data from a public company dataset. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
               ghLink="https://public.tableau.com/app/profile/gabriel.mishaan/viz/Sales3YearAnalysis_16895334473060/SalesPerformance"
+              demoLink="https://gabomishaan.github.io/Wordle/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={UN}
+              isBlog={false}
+              title="Data Exploration - UN Demographic Indicators"
+              description="Employed SQL Server to analyze publicly accessible United Nations data pertaining to life expectancy. The project aimed to extract valuable insights by examining changes over time and exploring the impact of various parameters on life expectancy trends."
+              ghLink="https://github.com/gabomishaan/UN_Demographics_Data/blob/main/UN_Demographic_Indicators.sql"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
           </Col>
