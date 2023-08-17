@@ -50,7 +50,7 @@ function Projects() {
               imgPath={wordle}
               isBlog={false}
               title="Data Preparation and Visualization - Employee Data"
-              description="Utilized SQL Server to explore and analyze employee and sales data from a public company dataset. I then created informative visualizations that unveiled key insights and comprehensive understanding of business metrics and trends through Tableau."
+              description="I harnessed SQL Server to delve into and evaluate employee and sales data sourced from a publicly available company dataset. Subsequently, I generated insightful visual representations using Tableau, unveiling essential observations and fostering a thorough grasp of business metrics and patterns."
               ghLink="https://public.tableau.com/app/profile/gabriel.mishaan/viz/Sales3YearAnalysis_16895334473060/SalesPerformance"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
