@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import wordle from "../../Assets/Projects/wordle.png";
 import UN from "../../Assets/Projects/UN.png";
+import housing from "../../Assets/Projects/housing.png";
+import movie from "../../Assets/Projects/movie.png";
 import faceBlurApp from "../../Assets/Projects/faceBlurApp.png";
 import Summits from "../../Assets/Projects/Summits.png";
 import {AiFillGithub} from "react-icons/ai";
@@ -58,11 +60,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={housing}
+              isBlog={false}
+              title="Data Cleaning - Public Housing Data"
+              description="Designed a data cleaning solution in SQL for public housing data, handling duplicates, missing values, inconsistencies, outliers, and data validation. Enhanced data quality and integrity."
+              ghLink="https://github.com/gabomishaan/DataCleaning_HousingData/blob/main/Data_Cleaning_Housing_Data.sql"
+              demoLink="https://gabomishaan.github.io/Wordle/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={UN}
               isBlog={false}
               title="Data Exploration - UN Demographic Indicators"
               description="Employed SQL Server to analyze publicly accessible United Nations data pertaining to life expectancy. The project aimed to extract valuable insights by examining changes over time and exploring the impact of various parameters on life expectancy trends."
               ghLink="https://github.com/gabomishaan/UN_Demographics_Data/blob/main/UN_Demographic_Indicators.sql"
+              demoLink="https://gabomishaan.github.io/Wordle/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie}
+              isBlog={false}
+              title="Data Exploration - Film Data"
+              description="Utilizing Python's pandas and seaborn libraries, this project aims to analyze the correlation between various film-related variables (such as budget, runtime, and IMDb ratings) and movie gross revenue. By visualizing these relationships through scatter plots and correlation matrices, the project seeks to uncover insights into the factors influencing a movie's financial success based on publicly available film data."
+              ghLink="https://github.com/gabomishaan/Movies_Revenue_analysis/blob/main/MovieDataAnalysis.ipynb"
               demoLink="https://gabomishaan.github.io/Wordle/"              
             />
           </Col>
